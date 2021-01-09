@@ -12,11 +12,11 @@ class Home extends Component {
   state = {
     books: [],
     q: "",
-    message: "Search For A Book To Begin!",
+    message: "Enter a book title to begin!",
   };
 
-  handleInputChange = (event) => {
-    const { name, value } = event.target;
+  handleInputChange = (e) => {
+    const { name, value } = e.target;
     this.setState({
       [name]: value,
     });
@@ -37,8 +37,8 @@ class Home extends Component {
       );
   };
 
-  handleFormSubmit = (event) => {
-    event.preventDefault();
+  handleFormSubmit = (e) => {
+    e.preventDefault();
     this.getBooks();
   };
 
@@ -55,7 +55,7 @@ class Home extends Component {
       image: book.volumeInfo.imageLinks.thumbnail,
     }).then(() => this.getBooks());
   };
-
+  // actually rendering on the page
   render() {
     return (
       <Container>
@@ -63,10 +63,10 @@ class Home extends Component {
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>(React) Google Books Search</strong>
+                <strong>(MERN) Google Books Search</strong>
               </h1>
               <h2 className="text-center">
-                Search for and Save Books of Interest.
+                Search for books and save your favorites!
               </h2>
             </Jumbotron>
           </Col>
