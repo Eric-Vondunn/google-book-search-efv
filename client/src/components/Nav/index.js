@@ -73,7 +73,9 @@ class Nav extends Component {
                     : "nav-link"
                 }
                 to="/saved"
-              ></Link>
+              >
+                Saved
+              </Link>
             </li>
           </ul>
         </div>

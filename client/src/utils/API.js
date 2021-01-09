@@ -12,10 +12,10 @@ export default {
   },
   //delete svd books by id
   deleteBook: function (id) {
-    return axios.delete("/api/books/" + id);
+    return axios.delete("/api/book/" + id);
   },
   // save book to db
   saveBook: function (bookData) {
-    return axios.post("/api/books", bookData);
+    return axios.post("/api/book", bookData);
   },
 };
