@@ -8,7 +8,7 @@ export default {
 
   //get saved books
   getSavedBooks: function () {
-    return axios.get("/api/books");
+    return axios.get("/api/book");
   },
   //delete svd books by id
   deleteBook: function (id) {

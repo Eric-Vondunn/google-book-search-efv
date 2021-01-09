@@ -1,4 +1,4 @@
-const require = require("../models");
+const db = require("../models");
 
 //book controller methods exports
 

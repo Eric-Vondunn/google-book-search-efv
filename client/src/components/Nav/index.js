@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
-import { render } from "react-dom";
+import { Link } from "react-router-dom";
 
 class Nav extends Component {
   state = {
