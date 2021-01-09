@@ -5,7 +5,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
     <form>
       <div className="form-group">
         <label htmlFor="Query">
-          <strong>Book</strong>
+          <strong>Books</strong>
         </label>
         <input
           className="form-control"
