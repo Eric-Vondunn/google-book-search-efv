@@ -17,7 +17,8 @@
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongod": "^2.0.0",
-    "mongoose": "^5.11.11"
+    "mongoose": "^5.11.11",
+    "socket.io": "^3.0.5"
   },
   "c": "proxy",
   "devDependencies": {
