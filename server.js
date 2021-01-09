@@ -21,7 +21,7 @@ app.use(routes);
 //connection to mongo
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb+srv://evondunn:Milk40!!17@cluster0.gkaou.mongodb.net/googlebooks?retryWrites=true&w=majority",
+    "mongodb+srv://evondunn:Milk40%21%2117@cluster0.gkaou.mongodb.net/googlebooks?retryWrites=true&w=majority",
   {
     useCreateIndex: true,
     useNewUrlParser: true,
